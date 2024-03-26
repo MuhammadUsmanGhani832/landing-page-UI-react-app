@@ -1,0 +1,98 @@
+:root{
+    --red:#D01C28;
+    --gray:#5A5959;
+    --2e:#2E2E2E;
+    --white:#FFFFFF;
+    --black:#000;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 72px;
+
+    position:sticky;
+    top: 0;
+    left: 0;
+    background-color: var(--white);
+
+}
+
+button{
+
+    all: unset;
+    width: 75px; 
+    height: 31px;
+    color: white;
+    background-color: var(--red);
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+
+main{
+    display: flex;
+    height: calc(100vh-73px);
+    max-width: 1280px;
+    align-items: center;
+    margin: 0 auto;
+}
+main h1 {
+    font-size:88px;
+    font-weight: 800;
+    line-height: 102px;
+}
+main p{
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--gray);
+}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.hero-btns{
+    display: flex;
+    align-items: center;
+    gap:40px;
+
+}
+
+.hero-btns button{
+    all: unset;
+    background-color: var(--red);
+    padding: 6px 16px;
+    color: var(--white);
+    font-weight: 600;
+    font-size: 24px;
+}
+.hero-btns button:last-of-type{
+    color:var(--gray);
+    background-color: var(--white);
+    border: 1px solid black;
+}
+
+.shopping{
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+}
+.icons{
+    display:flex;
+    gap:16px;
+}
+.icons img{
+    cursor:pointer;
+}
+.hero-para{
+    max-width: 400px;
+}
