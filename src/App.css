@@ -31,6 +31,14 @@ button{
     font-size: 16px;
     font-weight: 600;
     text-align: center;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+button:hover{
+    color: var(--red);
+    border: 2px solid var(--red);
+    background-color: transparent;
 }
 nav ul{
     display: flex;
@@ -74,11 +82,25 @@ main p{
     color: var(--white);
     font-weight: 600;
     font-size: 24px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.hero-btns button:hover{
+    color: var(--red);
+    border: 2px solid var(--red);
+    background-color: transparent;
 }
 .hero-btns button:last-of-type{
     color:var(--gray);
     background-color: var(--white);
     border: 1px solid black;
+}
+.hero-btns button:last-of-type:hover{
+    color:var(--white);
+    background-color: var(--gray);
+    border: 1px solid transparent;
 }
 
 .shopping{
