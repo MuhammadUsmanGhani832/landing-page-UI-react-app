@@ -4,11 +4,9 @@ import Navigation from './components/Navigation';
 import Hero from './components/Hero'
 
 function App() {
-
-
   return (
     <div>
-     <Navigation/>n
+     <Navigation/>
      <Hero/>
     </div>
   );
